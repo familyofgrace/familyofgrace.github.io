@@ -37,10 +37,10 @@
                 <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
                 {% endif %}
                 </span>
-                <span class="author-meta">
-                <span class="post-name">{{ author.display_name }}</span> 
+                <span class="author-meta" style="font-size: 17px;">
+                    <span class="post-name">{{ author.display_name }}</span> 
                 {% endif %}
-                <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
+                    <span class="post-date">{{ post.date | date: "%Y/%m/%d" }}</span>
                 </span>
                 <div class="clearfix"></div>
             </div>

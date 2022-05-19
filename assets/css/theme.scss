@@ -43,9 +43,9 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 2;
     letter-spacing: 2px;
     font-size: 1.5em;
-    // background: -webkit-linear-gradient(299deg, #12b6da 0%, #a31fe2 74%);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
+    background: -webkit-linear-gradient(299deg, #12b6da 0%, #a31fe2 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     font-style: italic;
     color: #616161;
     writing-mode: horizontal-tb;

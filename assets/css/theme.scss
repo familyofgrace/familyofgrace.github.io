@@ -294,10 +294,6 @@ img, img:hover {
             font-weight:700;
         }
     }
-    .post-date {
-        float:right;
-        margin-top: 10px;
-    }
     .img-thumb {
         object-fit:cover;
         height:240px;
@@ -525,9 +521,15 @@ img, img:hover {
     margin-top:120px;
     .badge {
         font-size: 15px;
+        font-weight: 400;
+        color: #fff;
         padding:5px 7px;
         display:inline-block;
         margin: 0 3px;
+        padding: 2px 5px;
+        border-radius: 4px;
+        background-color: #20bf55;
+        background-image: linear-gradient(315deg, #0caf43 0%, #0599c3 74%);
     }
 }
 
@@ -740,4 +742,16 @@ body.active-side {
             height:35px;
         }
     }
+}
+
+em {
+    text-align: center;
+    display: block;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    color: #bbb;
+    background: -webkit-linear-gradient(299deg, #12b6da 0%, #a31fe2 74%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

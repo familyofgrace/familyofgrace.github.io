@@ -25,7 +25,7 @@ authors:
   zy:
     name: 白颜妈妈
     display_name: 白颜妈妈
-    vatar: 'assets/images/avatar-sal.png'
+    avatar: 'assets/images/avatar-zy.png'
     description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
   john:
     name: John

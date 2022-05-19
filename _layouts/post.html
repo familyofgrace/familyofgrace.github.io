@@ -19,7 +19,7 @@ post_class: post-template
             <img class="author-thumb" src="https://www.gravatar.com/avatar/{{ author.gravatar }}?s=250&d=mm&r=x" alt="{{ author.display_name }}">
             {% endif %}
         </div>            
-        <div style="width: 100%;display: flex;justify-content: space-between;padding-left: 1em;">
+        <div style="width: 100%;display: flex;justify-content: space-between;padding-left: 10px;">
         {{ author.display_name }} 
         <span class="post-date"><time class="post-date" datetime="{{ page.date | date:"%Y-%m-%d" }}">{{ page.date | date: "%Y/%m/%d" }}</time></span>           
         {% if page.last_modified_at %}

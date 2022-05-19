@@ -427,10 +427,9 @@ img, img:hover {
 }
 .entry-header {
     .author-thumb {
-        width:50px;
+        width:34px;
         border-radius:50%;
-        margin-right:10px;
-        border:2px solid darken($primary,20%);
+        border:1px solid darken($primary,20%);
         padding:2px;
     }
 }
@@ -645,7 +644,8 @@ body.active-side {
 }
 @media (max-width: 768px) {
     .posttitle {
-        font-size:35px;
+        font-size: 1.5em;
+        letter-spacing: 5px;
     }
     .blog-grid-container {
         grid-template-columns: 1fr;
@@ -754,4 +754,17 @@ em {
     background: -webkit-linear-gradient(299deg, #12b6da 0%, #a31fe2 74%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+div.img {
+    padding: 1em;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(17,17,17,0.125);
+    margin: 1em auto;
 }

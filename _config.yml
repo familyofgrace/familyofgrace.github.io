@@ -16,7 +16,7 @@ defaults:
   - scope:
       path: '_posts'
     values:
-      permalink: /:categories/:year/:month/:day.html
+      permalink: /:categories/:year/:month/:day/:title.html
       author: zy
 
 
@@ -27,10 +27,10 @@ authors:
     display_name: 白颜妈妈
     avatar: 'assets/images/avatar-zy.png'
     description: "Author of Memoirs, a Bootstrap Medium styled template available for Jekyll. You are currently previewing Jekyll template demo."
-  john:
-    name: John
-    display_name: John    
-    avatar: 'assets/images/avatar.png'
+  xb:
+    name: 弈白爸爸
+    display_name: 弈白爸爸    
+    avatar: 'assets/images/avatar-xb.png'
     description: "Write a short description of the author here. You are currently previewing Memoirs demo, a Jekyll template compatible with Github pages."
 
 # Plugins

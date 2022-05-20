@@ -68,18 +68,12 @@
 
 <div class="container">
     <div class="site-image">
-
-        <!-- Site Logo/Name
-        ================================================== -->
-    
-        <a class="navbar-brand" href="{{ site.baseurl }}/">
-            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-        </a>  
-    
-
-        <!-- Site Tag
-        ================================================== -->
         {% if page.url == '/' %}
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+                <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+            </a>  
+    
+
             <p class="sitetag">
                 {{ site.description }}
             </p>

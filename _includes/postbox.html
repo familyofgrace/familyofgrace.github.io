@@ -11,7 +11,7 @@
                     <span>{{ post.title }}</span>
                     <div class="title-date" style="flex-direction: row; min-height: 2rem;">
                         <span class="post-date" style="align-self: flex-end;">{{ post.date | date: "%Y/%m/%d" }}</span>
-                        <div class="meta-footer-thumb" style="    width: 2rem; margin-top: -0.5rem; background: no-repeat center / 100% url('{{site.baseurl}}/{{ author.avatar }}');"></div>
+                        <div class="meta-footer-thumb" style="    width: 2rem; margin-top: -0.5rem; background: no-repeat center / 100% url('{{ author.avatar }}');"></div>
                     </div>
                     {% endif %}
                 </div>

@@ -24,9 +24,9 @@ body {
     line-height:1.7;
     background: #f4f4f4;
 }
-a {
-    color: darken($primary, 24%);
-}
+// a {
+//     color: darken($primary, 24%);
+// }
 img {
     max-width:100%;
     height:auto;
@@ -258,6 +258,7 @@ img, img:hover {
     }
     .card {
         border:0;
+        border-radius: 50px;
         &:hover {           
            .card-title a { 
                 background-size: 100% 100%;
@@ -265,15 +266,20 @@ img, img:hover {
         }
     }
     .card-title {
+        text-align: center;
+        margin-bottom: 0;
         font-weight:400;
         font-size:22px;
         line-height:1.4;
+        // background: -webkit-linear-gradient(127deg, #12b6da 0%, #a31fe2 74%);
         a { 
-            background-image: linear-gradient(180deg, transparent 89%, $primary 0);
-            background-repeat: no-repeat;
-            background-size: 0 100%;
+            // background-image: linear-gradient(180deg, transparent 89%, $primary 0);
+            // background-repeat: no-repeat;
+            // background-size: 0 100%;
             transition: background-size .6s ease;
             position:relative;
+            text-decoration:none;
+            // color: #fff;
             &:hover {
                 text-decoration:none;
             }
@@ -289,9 +295,23 @@ img, img:hover {
        font-size:14px;
         border-top:0;
         padding: 1rem 1.25rem;
+        margin-top: -85px;
+        border-bottom-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        .wrapfooter {
+            display: flex;
+            gap: 1rem;
+            font-size: 1rem;
+            
+            .title-date {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+        }
         a {
-            color:inherit;
-            font-weight:700;
+            color: #333;
+            text-decoration: none;
         }
     }
     .img-thumb {
@@ -299,6 +319,7 @@ img, img:hover {
         height:240px;
         width:100%;
         object-position:top;
+        border-radius: 50px;
     }
 }
 .firstpage {
@@ -311,9 +332,7 @@ img, img:hover {
         align-items: flex-start;
         font-size: 1em;
         padding:0;
-        .card-title {
-            font-size:28px;
-        }
+
         .img-thumb {
             object-fit:cover;
             height:400px;
@@ -333,7 +352,7 @@ img, img:hover {
             object-position:top;
         }
         .card-title {
-            font-size:18px;
+            // font-size:18px;
             line-height:1.5;
         }      
     }

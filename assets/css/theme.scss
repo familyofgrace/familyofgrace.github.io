@@ -249,8 +249,8 @@ img, img:hover {
 .blog-grid-item {  
     color: #333;
     padding: 0;
-    display: flex;
-    align-items:center;
+    // display: flex;
+    // align-items:center;
     .author-thumb {
         width:40px;
         border-radius:50%;
@@ -258,7 +258,8 @@ img, img:hover {
     }
     .card {
         border:0;
-        border-radius: 50px;
+        border-radius: 25px;
+        box-shadow: 0 0 20px 4px #d0d0d0;
         &:hover {           
            .card-title a { 
                 background-size: 100% 100%;
@@ -294,10 +295,10 @@ img, img:hover {
     .card-footer {
        font-size:14px;
         border-top:0;
-        padding: 1rem 1.25rem;
+        padding: 0.5rem 1.25rem;
         margin-top: -85px;
-        border-bottom-right-radius: 50px;
-        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
         .wrapfooter {
             display: flex;
             gap: 1rem;

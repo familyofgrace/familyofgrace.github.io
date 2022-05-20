@@ -67,23 +67,25 @@
 <div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
 
 <div class="container">
+    <div class="site-image">
 
-    <!-- Site Logo/Name
-    ================================================== -->
-   
-    <a class="navbar-brand" href="{{ site.baseurl }}/">
-        <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
-    </a>  
-   
+        <!-- Site Logo/Name
+        ================================================== -->
+    
+        <a class="navbar-brand" href="{{ site.baseurl }}/">
+            <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.name }}">
+        </a>  
+    
 
-    <!-- Site Tag
-    ================================================== -->
-    {% if page.url == '/' %}
-        <p class="sitetag">
-            {{ site.description }}
-        </p>
-    {% endif %}
+        <!-- Site Tag
+        ================================================== -->
+        {% if page.url == '/' %}
+            <p class="sitetag">
+                {{ site.description }}
+            </p>
+        {% endif %}
 
+    </div>
     <!-- Content
     ================================================== -->
     <div class="main-content">

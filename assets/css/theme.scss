@@ -33,10 +33,13 @@ img {
 }
 
 h1,h2,h3,h4,h5,h6 {
-    font-weight:700;
+    font-weight:400;
 }
 .site-content {
-    padding-top:50px;
+    padding-top:20px;
+}
+.site-image {
+    background: center / contain no-repeat url("/assets/images/site-img-dark.jpg");
 }
 .sitetag {
     font-weight: 400;

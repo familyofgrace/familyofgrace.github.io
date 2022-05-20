@@ -39,7 +39,9 @@ h1,h2,h3,h4,h5,h6 {
     padding-top:20px;
 }
 .site-image {
-    background: center / contain no-repeat url("/assets/images/site-img-dark.jpg");
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
 }
 .sitetag {
     font-weight: 400;
@@ -124,11 +126,7 @@ img, img:hover {
     animation: fade-up 0.7s ease-out forwards running;
 }
 // menu
-.navbar-brand img {
-    max-height:80px;
-    margin-bottom:40px;
-    margin-top:40px;
-}
+
 .sidebar {
     position: fixed;
     left: 0px;

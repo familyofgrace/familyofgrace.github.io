@@ -47,13 +47,13 @@ h1,h2,h3,h4,h5,h6 {
     width: 75%;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 2px;
+    letter-spacing: 3px;
     font-size: 1em;
-    background: -webkit-linear-gradient(269deg, #12b6da 0%, #a31fe2 74%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    // background: -webkit-linear-gradient(269deg, #12b6da 0%, #a31fe2 74%);
+    // -webkit-background-clip: text;
+    // -webkit-text-fill-color: transparent;
     font-style: italic;
-    color: #616161;
+    // color: #616161;
     margin: auto;
     text-align: right;
     @include media-breakpoint-up(sm) {

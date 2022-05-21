@@ -257,7 +257,7 @@ img, img:hover {
     }
     .card {
         border:0;
-        box-shadow: 0 0 10px 2px #d0d0d0;
+        // box-shadow: 0 0 10px 2px #d0d0d0;
         &:hover {           
            .card-title a { 
                 background-size: 100% 100%;
@@ -702,6 +702,7 @@ body.active-side {
     }
     .site-content {
         padding-top:0;
+        background: #d84c6e;
     }
     .bd-search {
         visibility: visible;

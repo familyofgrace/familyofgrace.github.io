@@ -44,19 +44,9 @@ h1,h2,h3,h4,h5,h6 {
     justify-content: space-between;
 }
 .sitetag {
-    width: 75%;
     font-weight: 400;
     line-height: 1.5;
-    letter-spacing: 3px;
-    font-size: 4vw;
-    color: #133a4c;
-    // background: -webkit-linear-gradient(269deg, #12b6da 0%, #a31fe2 74%);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
-    font-style: italic;
-    // color: #616161;
     margin: auto;
-    text-align: right;
     @include media-breakpoint-up(sm) {
         font-size:50px;
         line-height:1.2;

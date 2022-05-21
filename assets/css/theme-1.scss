@@ -127,9 +127,18 @@ div.img {
 
 .sitetag {
   color: #133a4c;
-    letter-spacing: 1px;
-    font-family: serif;
-    // background: -webkit-linear-gradient(269deg, #12b6da 0%, #a31fe2 74%);
-    // -webkit-background-clip: text;
-    // -webkit-text-fill-color: transparent;
+  letter-spacing: 1px;
+  font-family: serif;
+  font-size: 1.1rem;
+  // background: -webkit-linear-gradient(269deg, #12b6da 0%, #a31fe2 74%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+ }
+
+ body * {
+   font-family: serif;
+ }
+
+ .form-control {
+   border: none;
  }

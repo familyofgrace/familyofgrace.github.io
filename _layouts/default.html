@@ -68,17 +68,6 @@
 <div class="site-content {% if page.url == '/' %} firstpage {% endif %}">
 
 <div class="container">
-    <div class="site-image">
-        {% if page.url == '/' %}
-            <!-- <a class="navbar-brand" href="{{ site.baseurl }}/"> -->
-                <!-- <img src="{{ site.logo }}" alt="{{ site.name }}"> -->
-            <!-- </a>   -->
-            <p class="sitetag">
-                {{ site.description }}
-            </p>
-        {% endif %}
-
-    </div>
     <!-- Content
     ================================================== -->
     <div class="main-content">
@@ -91,10 +80,16 @@
 ================================================== -->
 <footer class="footer">
     <div class="container">
+        <div class="site-image">
+                <a class="navbar-brand" href="{{ site.baseurl }}/">
+                    <img src="{{ site.logo }}" alt="{{ site.name }}">
+                </a>  
+                <p class="sitetag">
+                    {{ site.description }}
+                </p>
+        </div>
         <div class="row">
-            <div class="col-md-6 col-sm-12 text-center text-lg-left">
-                Copyright © {{ site.time | date: "%Y" }} {{ site.name }} 
-            </div>
+            <!-- <div class="col-md-6 col-sm-12 text-center text-lg-left"> Copyright © {{ site.time | date: "%Y" }} {{ site.name }} </div> -->
         </div>
     </div>
 </footer>

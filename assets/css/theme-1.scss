@@ -33,14 +33,6 @@
   }
 }
 
-.article-post {
-  div.img {
-    img {
-      max-width: 100%;
-    }
-  }
-}
-
 #js-results-container, #js-results-container a {
   color: #16485b;
 }
@@ -114,10 +106,23 @@ img.category-profile {
   letter-spacing: 3px;
 }
 
-div.img {
+div.article-img-wrapper {
   padding: 0.5rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(17,17,17,0.125);
+  margin: 1em auto;
   img {
     border: none;
+    max-width: 100%;
+  }
+  .caption {
+    text-align: center;
   }
 }
 

@@ -48,6 +48,7 @@ h1,h2,h3,h4,h5,h6 {
     line-height: 1.5;
     letter-spacing: 3px;
     font-size: 1em;
+    color: #fff;
     // background: -webkit-linear-gradient(269deg, #12b6da 0%, #a31fe2 74%);
     // -webkit-background-clip: text;
     // -webkit-text-fill-color: transparent;
@@ -631,7 +632,8 @@ body.active-side {
     padding:30px;
     border-top:1px solid $gray-200;
     font-size:15px;
-    background:#fff;
+    background:#d84c6e;
+    color: #fff;
 }
 
 //responsive tweaks

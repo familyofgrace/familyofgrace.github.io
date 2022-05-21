@@ -3,10 +3,10 @@
 
 <div class="blog-grid-item" style="">
     <a href="{{ site.baseurl }}{{ post.url }}">
-        <div class="card" style="border-radius: 10px; height: 7rem;">
-            <img src="{{ site.baseurl }}{{ post.image }}" alt="" style="width: 6rem; height: 6rem; margin: 0.5rem; border-radius: 10px; flex-grow: 1;">
-            <div class="card-footer"  style="background-color: #ffffff; width: 100%;border-radius: 10px;">
-                <div class="wrapfooter" style="height: 100%; padding: 0.5rem 0.5rem 0.5rem 0;">
+        <div class="card">
+            <img class="post-img" src="{{ site.baseurl }}{{ post.image }}">
+            <div class="card-footer">
+                <div class="wrapfooter">
                     {% if post.author %}
                     <span>{{ post.title }}</span>
                     <div class="title-date" style="flex-direction: row; min-height: 2rem;">

@@ -11,7 +11,10 @@
     <!-- Categories -->
     {% assign sortedCategories = page.categories | sort %}
     {% for category in sortedCategories %}
-    <a class="smoothscroll badge  text-capitalize" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">{{ category }}</a>                
+    <a class="category" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">
+        <img class="category-profile" src="/assets/images/{{ category }}-profile.png" alt="">
+        <div>{{ category }}</div>
+    </a>                
     {% endfor %}
 
     <!-- Tags -->  

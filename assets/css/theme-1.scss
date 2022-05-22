@@ -28,7 +28,8 @@
     .wrapfooter {
       height: 100%; 
       padding: 0.5rem 0.5rem 0.5rem 0;
-      color: #16485b;
+      // color: #16485b;
+      color: #1f576c;
     }
   }
 }
@@ -136,10 +137,21 @@ div.article-img-wrapper {
   // background: -webkit-linear-gradient(269deg, #12b6da 0%, #a31fe2 74%);
   // -webkit-background-clip: text;
   // -webkit-text-fill-color: transparent;
+  .main-content {
+    .entry-header {
+      .posttitle {
+        color: #2a4c59;
+      }
+    }
+  }
  }
 
  body * {
    font-family: serif;
+ }
+
+ .site-content p {
+   color: #455b66;
  }
 
  .form-control {

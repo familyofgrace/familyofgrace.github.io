@@ -12,7 +12,7 @@
     {% assign sortedCategories = page.categories | sort %}
     {% for category in sortedCategories %}
     <a class="category" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">
-        <img class="category-profile" src="/assets/images/{{ category }}-profile.png" alt="">
+        <img class="category-avatar" src="/assets/images/{{ category }}-avatar.png" alt="">
         <div>{{ category }}</div>
     </a>                
     {% endfor %}

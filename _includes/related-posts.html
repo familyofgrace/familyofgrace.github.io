@@ -13,8 +13,7 @@
     {% for category in sortedCategories %}
     <a class="category" href="{{site.baseurl}}/categories#{{ category | replace: " ","-" }}">
         <img class="category-avatar" src="/assets/images/{{ category }}-avatar.png" alt="">
-        <div>{{ category }}</div>
-    </a>                
+    </a>
     {% endfor %}
 
     <!-- Tags -->  
